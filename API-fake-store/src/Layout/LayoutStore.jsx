@@ -44,18 +44,18 @@ const LayoutStore = () => {
 
                 <SearchBar />
 
-                <Link to="/home" className="text-[#f3f1f2ff] px-4">
+                <Link to="/" className="text-[#f3f1f2ff] px-4">
                     <i className="fas fa-user-circle"></i>
                     <p>My Profile</p>
                 </Link>
-                <Link to="/store/cart" className="text-[#f3f1f2ff]">
+                <Link to="/cart" className="text-[#f3f1f2ff]">
                     <i className="fas fa-wallet"></i>
                     <p>Cart</p>
                 </Link>
             </header>
             <nav className="flex justify-row items-auto p-1 w-full bg-[#463d68]">
                     <ul className="flex flex-row justify-around items-center w-full">
-                        <li className="p-2"><Link to="/store" className="text-[#f3f1f2ff]">Home</Link></li>
+                        <li className="p-2"><Link to="/" className="text-[#f3f1f2ff]">Home</Link></li>
                         <li className="p-2"><Link to="#products" className="text-[#f3f1f2ff]">Products</Link></li>
                         <li className="p-2"><Link to="#deals" className="text-[#f3f1f2ff]">Deals</Link></li>
                         <li className="p-2"><Link to="#contact" className="text-[#f3f1f2ff]">Contact</Link></li>

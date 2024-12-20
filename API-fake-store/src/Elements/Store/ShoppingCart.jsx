@@ -64,7 +64,7 @@ const ShoppingCart = () => {
                     {cartEmpty ? (
                         <>
                             <p className="p-2 mb-2">Nothing added</p>
-                            <Link to="/store" className="p-2 mt-3 bg-[#811d2eff] text-[#f3f1f2ff] rounded-md hover:bg-[#f3b61fff]">Buy new items</Link>
+                            <Link to="/" className="p-2 mt-3 bg-[#811d2eff] text-[#f3f1f2ff] rounded-md hover:bg-[#f3b61fff]">Buy new items</Link>
                         </>
                     ) : (
                         cart.map((product) => {
